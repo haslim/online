@@ -1,0 +1,23 @@
+name: door_window_estimator
+description: A Flutter app for generating door and window drawings and cost estimations.
+version: 0.1.0
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mlkit_text_recognition: ^0.7.0
+  tesseract_ocr: ^1.0.0
+  pdf: ^3.10.4
+  excel: ^2.0.0
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/maliyet_konfig_sablonu_v2.json

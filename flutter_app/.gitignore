@@ -1,0 +1,7 @@
+# Flutter generated files
+.dart_tool/
+.packages
+pubspec.lock
+build/
+ios/
+android/

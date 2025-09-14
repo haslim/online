@@ -1,0 +1,22 @@
+{
+  "price_sets": {
+    "profil_per_meter": 50,
+    "glass_per_m2": 200,
+    "labor_per_m2": 100,
+    "vat": 0.18
+  },
+  "accessories": {
+    "door_single": 30,
+    "window": 20
+  },
+  "types": {
+    "door_single": {
+      "accessory": "door_single",
+      "markup": 0.10
+    },
+    "window": {
+      "accessory": "window",
+      "markup": 0.05
+    }
+  }
+}
